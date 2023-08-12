@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FORM | SCAL</title>
+    <link rel="stylesheet" href="/src/app.css">
+    <link rel="stylesheet"
+        href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css">
+
+    <style>
+
+        body{
+            background-color: rgb(215, 214, 255);
+        }
+        #fld {
+            border-radius: 30px;
+            width: 350px;
+            height: 30px;
+            border: 1px solid rgb(215, 214, 255);
+        }
+
+        .subscribe-container {
+            margin-top: 200px;
+            margin-left: 400px;
+           
+        }
+
+        .subscribe-button {
+            border-radius: 10px;
+            height: 35px;
+            border: 1px solid rgb(215, 214, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="subscribe-container">
+        <form method="POST">
+            <input type="email" name="youremail" placeholder="  sumit@abc.in" id="fld" required><br>
+            <input type="text" name="yourname" placeholder="  sumit " id="fld" required><br>
+            <input class="subscribe-button" type="submit" value="subscribe">
+        </form>
+    </div>
+</body>
+
+</html>
